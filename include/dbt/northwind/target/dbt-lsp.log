@@ -1230,3 +1230,6 @@
 15:54:17.330185 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.dim_product [success]
 15:54:17.330192 [info ]: Finished analyzing [  0.05s] (12 nodes, 1 skipped, 0 errors)
 15:54:17.332387 [info ]: Cached model count updated: 8 models (accurate)
+15:55:44.277980 [info ]: Started loading project
+15:55:44.282261 [info ]: Finished loading project [  0.00s]
+15:55:44.282356 [info ]: Cached model count updated: 8 models (accurate)
