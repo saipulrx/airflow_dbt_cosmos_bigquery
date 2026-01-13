@@ -1,0 +1,7 @@
+*.json
+/pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+logs/

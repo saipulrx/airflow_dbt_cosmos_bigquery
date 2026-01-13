@@ -1,0 +1,1232 @@
+==================== 2026-01-13T09:08:44.670094Z | 8bb41e29-e523-4685-a715-633f325652fe ====================
+09:08:44.670397 [info ]: Starting dbt LSP server
+09:08:44.670493 [info ]: Connecting to LSP client on port 8000
+09:08:44.671077 [info ]: Successfully connected to LSP client
+09:08:44.671087 [info ]: Creating LSP service...
+09:08:44.719642 [info ]: Creating LSP server...
+09:08:44.719656 [info ]: Starting LSP server...
+09:08:44.730993 [info ]: Started loading project
+09:08:44.735184 [info ]: Finished loading project [  0.00s]
+09:09:07.832465 [info ]: Started loading project
+09:09:07.845704 [info ]: Finished loading project [  0.01s]
+09:09:32.398505 [info ]: Started loading project
+09:09:32.681749 [info ]: Started parsing
+09:09:32.717416 [info ]: Finished loading project [  0.32s]
+09:09:32.724327 [info ]: Finished parsing [  0.04s]
+09:09:32.724908 [info ]: Cached model count updated: 1 models (estimate)
+09:09:32.724916 [info ]: Cached model count updated: 1 models (accurate)
+09:09:32.725033 [info ]: Started scheduling
+09:09:32.725282 [info ]: Finished scheduling [  0.00s]
+09:09:32.864361 [info ]: Started building task graph
+09:09:32.864656 [info ]: Finished building task graph [  0.00s]
+09:09:32.865022 [info ]: Started rendering (4 nodes)
+09:09:32.865096 [info ]: Started seed dbt_cosmos_airflow.suppliers
+09:09:32.865144 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+09:09:32.865170 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+09:09:32.865175 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+09:09:32.865187 [info ]: Started seed dbt_cosmos_airflow.products
+09:09:32.865193 [debug]: Started rendering seed dbt_cosmos_airflow.products
+09:09:32.878675 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.products [success]
+09:09:32.878726 [info ]: Started analyzing (4 nodes)
+09:09:32.878734 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+09:09:32.878756 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.suppliers [success]
+09:09:32.878764 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+09:09:32.878773 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.inventory_transactions [success]
+09:09:32.878779 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+09:09:32.878898 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+09:09:32.878910 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+09:09:32.878928 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.suppliers (table)
+09:09:32.878935 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+09:09:32.878941 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.products (table)
+09:09:32.878948 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+09:09:32.878956 [info ]: Started model dbt_cosmos_airflow.stg_products
+09:09:32.878962 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+09:09:32.880649 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+09:09:32.880665 [info ]: Finished rendering [  0.02s] (4 nodes, 0 skipped, 0 errors)
+09:09:32.880677 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+09:09:32.901290 [info ]:  Succeeded [  0.02s] model dbt_cosmos_airflow.stg_products (view)
+09:09:32.901317 [debug]: Finished analyzing [  0.02s] model dbt_cosmos_airflow.stg_products [success]
+09:09:32.901323 [info ]: Finished analyzing [  0.02s] (4 nodes, 0 skipped, 0 errors)
+09:09:32.904116 [info ]: Cached model count updated: 1 models (accurate)
+09:09:40.536511 [info ]: Started loading project
+09:09:40.552229 [info ]: Started loading project
+09:09:40.552986 [info ]: Finished loading project [  0.02s]
+09:09:40.816009 [info ]: Started parsing
+09:09:40.847771 [info ]: Finished loading project [  0.30s]
+09:09:40.850512 [info ]: Finished parsing [  0.03s]
+09:09:40.850863 [info ]: Cached model count updated: 1 models (estimate)
+09:09:40.850871 [info ]: Cached model count updated: 1 models (accurate)
+09:09:40.850883 [info ]: Started scheduling
+09:09:40.850914 [info ]: Finished scheduling [  0.00s]
+09:09:40.957519 [info ]: Started building task graph
+09:09:40.957573 [info ]: Finished building task graph [  0.00s]
+09:09:40.957650 [info ]: Started rendering (4 nodes)
+09:09:40.957659 [info ]: Started seed dbt_cosmos_airflow.suppliers
+09:09:40.957666 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+09:09:40.957678 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+09:09:40.957684 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+09:09:40.957694 [info ]: Started seed dbt_cosmos_airflow.products
+09:09:40.957698 [debug]: Started rendering seed dbt_cosmos_airflow.products
+09:09:40.960875 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+09:09:40.960909 [info ]: Started analyzing (4 nodes)
+09:09:40.960918 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+09:09:40.960938 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+09:09:40.960949 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+09:09:40.961097 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+09:09:40.961110 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+09:09:40.961123 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.suppliers (table)
+09:09:40.961132 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+09:09:40.961301 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.products [success]
+09:09:40.961311 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+09:09:40.961320 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.products (table)
+09:09:40.961327 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+09:09:40.961336 [info ]: Started model dbt_cosmos_airflow.stg_products
+09:09:40.961341 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+09:09:40.962684 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+09:09:40.962696 [info ]: Finished rendering [  0.01s] (4 nodes, 0 skipped, 0 errors)
+09:09:40.962707 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+09:09:40.972820 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.stg_products (table)
+09:09:40.972845 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.stg_products [success]
+09:09:40.972850 [info ]: Finished analyzing [  0.01s] (4 nodes, 0 skipped, 0 errors)
+09:09:40.975113 [info ]: Cached model count updated: 1 models (accurate)
+09:10:38.751065 [info ]: Started loading project
+09:10:38.767147 [info ]: Started loading project
+09:10:38.768051 [info ]: Finished loading project [  0.02s]
+09:10:39.058179 [info ]: Started parsing
+09:10:39.094107 [info ]: Finished loading project [  0.33s]
+09:10:39.098495 [info ]: Finished parsing [  0.04s]
+09:10:39.098813 [info ]: Cached model count updated: 1 models (estimate)
+09:10:39.098822 [info ]: Cached model count updated: 1 models (accurate)
+09:10:39.098836 [info ]: Started scheduling
+09:10:39.098871 [info ]: Finished scheduling [  0.00s]
+09:10:39.207017 [info ]: Started building task graph
+09:10:39.207078 [info ]: Finished building task graph [  0.00s]
+09:10:39.207160 [info ]: Started rendering (4 nodes)
+09:10:39.207170 [info ]: Started seed dbt_cosmos_airflow.suppliers
+09:10:39.207177 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+09:10:39.207188 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+09:10:39.207195 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+09:10:39.207207 [info ]: Started seed dbt_cosmos_airflow.products
+09:10:39.207212 [debug]: Started rendering seed dbt_cosmos_airflow.products
+09:10:39.210568 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+09:10:39.210595 [info ]: Started analyzing (4 nodes)
+09:10:39.210602 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+09:10:39.210620 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+09:10:39.210630 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+09:10:39.210726 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+09:10:39.210740 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+09:10:39.210749 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.products [success]
+09:10:39.210757 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+09:10:39.210770 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.products (table)
+09:10:39.210779 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+09:10:39.210788 [info ]: Started model dbt_cosmos_airflow.stg_products
+09:10:39.210793 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+09:10:39.210801 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.suppliers (table)
+09:10:39.210808 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+09:10:39.211920 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+09:10:39.211930 [info ]: Finished rendering [  0.00s] (4 nodes, 0 skipped, 0 errors)
+09:10:39.211941 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+09:10:39.213476 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_products (view)
+09:10:39.213490 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+09:10:39.213494 [info ]: Finished analyzing [  0.00s] (4 nodes, 0 skipped, 0 errors)
+09:10:39.215845 [info ]: Cached model count updated: 1 models (accurate)
+10:57:19.825979 [info ]: Started loading project
+10:57:19.834257 [info ]: Started loading project
+10:57:19.835244 [info ]: Finished loading project [  0.01s]
+10:57:20.209053 [info ]: Started parsing
+10:57:20.244846 [info ]: Finished loading project [  0.41s]
+10:57:20.250051 [info ]: Finished parsing [  0.04s]
+10:57:20.250604 [info ]: Cached model count updated: 2 models (estimate)
+10:57:20.250609 [info ]: Cached model count updated: 2 models (accurate)
+10:57:20.250630 [info ]: Started scheduling
+10:57:20.250663 [info ]: Finished scheduling [  0.00s]
+10:57:20.369927 [info ]: Started building task graph
+10:57:20.370003 [info ]: Finished building task graph [  0.00s]
+10:57:20.370091 [info ]: Started rendering (4 nodes)
+10:57:20.370100 [info ]: Started seed dbt_cosmos_airflow.suppliers
+10:57:20.370113 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+10:57:20.370125 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+10:57:20.370132 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+10:57:20.370143 [info ]: Started seed dbt_cosmos_airflow.products
+10:57:20.370148 [debug]: Started rendering seed dbt_cosmos_airflow.products
+10:57:20.376601 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.inventory_transactions [success]
+10:57:20.376652 [info ]: Started analyzing (4 nodes)
+10:57:20.376661 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+10:57:20.376673 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.products [success]
+10:57:20.376681 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+10:57:20.376701 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.products (table)
+10:57:20.376714 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+10:57:20.376724 [info ]: Started model dbt_cosmos_airflow.stg_products
+10:57:20.376730 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+10:57:20.376739 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+10:57:20.376746 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+10:57:20.378624 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+10:57:20.378651 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+10:57:20.385157 [debug]: Finished rendering [  0.02s] seed dbt_cosmos_airflow.suppliers [success]
+10:57:20.385176 [info ]: Finished rendering [  0.02s] (4 nodes, 0 skipped, 0 errors)
+10:57:20.385203 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+10:57:20.385224 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.suppliers (table)
+10:57:20.385236 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+10:57:20.388636 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.stg_products (view)
+10:57:20.388661 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.stg_products [success]
+10:57:20.388666 [info ]: Finished analyzing [  0.01s] (4 nodes, 0 skipped, 0 errors)
+10:57:20.391207 [info ]: Cached model count updated: 2 models (accurate)
+10:57:23.415305 [info ]: Started loading project
+10:57:23.422606 [info ]: Started parsing
+10:57:23.437218 [info ]: Finished loading project [  0.02s]
+10:57:23.440224 [info ]: Finished parsing [  0.02s]
+10:57:23.442062 [info ]: Cached model count updated: 2 models (estimate)
+10:57:23.442071 [info ]: Cached model count updated: 2 models (accurate)
+10:57:23.442091 [info ]: Started scheduling
+10:57:23.442182 [info ]: Finished scheduling [  0.00s]
+10:57:23.580459 [info ]: Started building task graph
+10:57:23.580539 [info ]: Finished building task graph [  0.00s]
+10:57:23.580615 [info ]: Started rendering (1 nodes)
+10:57:23.580625 [info ]: Started model dbt_cosmos_airflow.stg_suppliers
+10:57:23.580632 [debug]: Started rendering model dbt_cosmos_airflow.stg_suppliers
+10:57:23.581780 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+10:57:23.581790 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+10:57:23.581801 [info ]: Started analyzing (1 nodes)
+10:57:23.581806 [debug]: Started analyzing model dbt_cosmos_airflow.stg_suppliers
+10:57:23.589972 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.stg_suppliers (view)
+10:57:23.589991 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.stg_suppliers [success]
+10:57:23.589994 [info ]: Finished analyzing [  0.01s] (1 nodes, 0 skipped, 0 errors)
+10:57:23.590043 [debug]: Incremental compilation - 1 nodes selected: {"model.northwind.stg_suppliers"}
+10:57:23.592151 [info ]: Cached model count updated: 2 models (accurate)
+10:57:48.239422 [info ]: Started loading project
+10:57:48.249051 [info ]: Started loading project
+10:57:48.249912 [info ]: Finished loading project [  0.01s]
+10:57:48.674296 [info ]: Started parsing
+10:57:48.710305 [info ]: Finished loading project [  0.46s]
+10:57:48.714845 [info ]: Finished parsing [  0.04s]
+10:57:48.715366 [info ]: Cached model count updated: 3 models (estimate)
+10:57:48.715374 [info ]: Cached model count updated: 3 models (accurate)
+10:57:48.715386 [info ]: Started scheduling
+10:57:48.715424 [info ]: Finished scheduling [  0.00s]
+10:57:48.834626 [info ]: Started building task graph
+10:57:48.834692 [info ]: Finished building task graph [  0.00s]
+10:57:48.834779 [info ]: Started rendering (5 nodes)
+10:57:48.834789 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+10:57:48.834797 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+10:57:48.834810 [info ]: Started seed dbt_cosmos_airflow.suppliers
+10:57:48.834815 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+10:57:48.834826 [info ]: Started seed dbt_cosmos_airflow.products
+10:57:48.834833 [debug]: Started rendering seed dbt_cosmos_airflow.products
+10:57:48.840889 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.inventory_transactions [success]
+10:57:48.840920 [info ]: Started analyzing (5 nodes)
+10:57:48.840929 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+10:57:48.840955 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+10:57:48.840972 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+10:57:48.841534 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.products [success]
+10:57:48.841550 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+10:57:48.841561 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.suppliers [success]
+10:57:48.841569 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+10:57:48.841584 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.suppliers (table)
+10:57:48.841594 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+10:57:48.841603 [info ]: Started model dbt_cosmos_airflow.stg_suppliers
+10:57:48.841610 [debug]: Started rendering model dbt_cosmos_airflow.stg_suppliers
+10:57:48.841620 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.products (table)
+10:57:48.841629 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+10:57:48.841637 [info ]: Started model dbt_cosmos_airflow.stg_products
+10:57:48.841642 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+10:57:48.842755 [debug]: Started analyzing model dbt_cosmos_airflow.stg_suppliers
+10:57:48.842797 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+10:57:48.842847 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+10:57:48.842862 [info ]: Finished rendering [  0.01s] (5 nodes, 0 skipped, 0 errors)
+10:57:48.842880 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+10:57:48.844359 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_suppliers (view)
+10:57:48.844383 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+10:57:48.844403 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_products (view)
+10:57:48.844416 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+10:57:48.844421 [info ]: Finished analyzing [  0.00s] (5 nodes, 0 skipped, 0 errors)
+10:57:48.847730 [info ]: Cached model count updated: 3 models (accurate)
+10:57:49.886812 [info ]: Started loading project
+10:57:49.896898 [info ]: Started parsing
+10:57:49.920475 [info ]: Finished loading project [  0.03s]
+10:57:49.922337 [info ]: Finished parsing [  0.03s]
+10:57:49.923539 [info ]: Cached model count updated: 3 models (estimate)
+10:57:49.923545 [info ]: Cached model count updated: 3 models (accurate)
+10:57:49.923562 [info ]: Started scheduling
+10:57:49.923599 [info ]: Finished scheduling [  0.00s]
+10:57:50.050284 [info ]: Started building task graph
+10:57:50.050332 [info ]: Finished building task graph [  0.00s]
+10:57:50.050409 [info ]: Started rendering (1 nodes)
+10:57:50.050419 [info ]: Started model dbt_cosmos_airflow.stg_inventory_transactions
+10:57:50.050427 [debug]: Started rendering model dbt_cosmos_airflow.stg_inventory_transactions
+10:57:50.051804 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+10:57:50.051818 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+10:57:50.051830 [info ]: Started analyzing (1 nodes)
+10:57:50.051835 [debug]: Started analyzing model dbt_cosmos_airflow.stg_inventory_transactions
+10:57:50.053886 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions (view)
+10:57:50.053907 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+10:57:50.053911 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+10:57:50.053958 [debug]: Incremental compilation - 1 nodes selected: {"model.northwind.stg_inventory_transactions"}
+10:57:50.056576 [info ]: Cached model count updated: 3 models (accurate)
+10:58:21.669989 [info ]: Started loading project
+10:58:21.673979 [info ]: Started loading project
+10:58:21.674343 [info ]: Finished loading project [  0.00s]
+10:58:22.040292 [info ]: Started parsing
+10:58:22.074201 [info ]: Finished loading project [  0.40s]
+10:58:22.080310 [info ]: Finished parsing [  0.04s]
+10:58:22.080649 [info ]: Cached model count updated: 4 models (estimate)
+10:58:22.080656 [info ]: Cached model count updated: 4 models (accurate)
+10:58:22.080669 [info ]: Started scheduling
+10:58:22.080716 [info ]: Finished scheduling [  0.00s]
+10:58:22.189373 [info ]: Started building task graph
+10:58:22.189453 [info ]: Finished building task graph [  0.00s]
+10:58:22.189546 [info ]: Started rendering (6 nodes)
+10:58:22.189558 [info ]: Started seed dbt_cosmos_airflow.suppliers
+10:58:22.189567 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+10:58:22.189583 [info ]: Started seed dbt_cosmos_airflow.products
+10:58:22.189589 [debug]: Started rendering seed dbt_cosmos_airflow.products
+10:58:22.189599 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+10:58:22.189605 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+10:58:22.192527 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+10:58:22.192561 [info ]: Started analyzing (6 nodes)
+10:58:22.192569 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+10:58:22.192581 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.products [success]
+10:58:22.192589 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+10:58:22.192608 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.products (table)
+10:58:22.192620 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+10:58:22.192628 [info ]: Started model dbt_cosmos_airflow.stg_products
+10:58:22.192635 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+10:58:22.192644 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+10:58:22.192652 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+10:58:22.192660 [info ]: Started model dbt_cosmos_airflow.stg_inventory_transactions
+10:58:22.192664 [debug]: Started rendering model dbt_cosmos_airflow.stg_inventory_transactions
+10:58:22.193388 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+10:58:22.193402 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+10:58:22.193504 [debug]: Started analyzing model dbt_cosmos_airflow.stg_inventory_transactions
+10:58:22.193506 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+10:58:22.194812 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions (view)
+10:58:22.194828 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+10:58:22.194911 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_products (view)
+10:58:22.194922 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+10:58:22.202508 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.suppliers [success]
+10:58:22.202540 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+10:58:22.202562 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.suppliers (table)
+10:58:22.202575 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+10:58:22.202585 [info ]: Started model dbt_cosmos_airflow.stg_suppliers
+10:58:22.202591 [debug]: Started rendering model dbt_cosmos_airflow.stg_suppliers
+10:58:22.203705 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+10:58:22.203706 [debug]: Started analyzing model dbt_cosmos_airflow.stg_suppliers
+10:58:22.203718 [info ]: Finished rendering [  0.01s] (6 nodes, 0 skipped, 0 errors)
+10:58:22.205249 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_suppliers (view)
+10:58:22.205273 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+10:58:22.205278 [info ]: Finished analyzing [  0.01s] (6 nodes, 0 skipped, 0 errors)
+10:58:22.207731 [info ]: Cached model count updated: 4 models (accurate)
+10:58:22.940307 [info ]: Started loading project
+10:58:22.945332 [info ]: Started parsing
+10:58:22.954620 [info ]: Finished loading project [  0.01s]
+10:58:22.956357 [info ]: Finished parsing [  0.01s]
+10:58:22.957580 [info ]: Cached model count updated: 4 models (estimate)
+10:58:22.957587 [info ]: Cached model count updated: 4 models (accurate)
+10:58:22.957602 [info ]: Started scheduling
+10:58:22.957639 [info ]: Finished scheduling [  0.00s]
+10:58:23.083945 [info ]: Started building task graph
+10:58:23.083990 [info ]: Finished building task graph [  0.00s]
+10:58:23.084060 [info ]: Started rendering (1 nodes)
+10:58:23.084075 [info ]: Started model dbt_cosmos_airflow.dim_date
+10:58:23.084084 [debug]: Started rendering model dbt_cosmos_airflow.dim_date
+10:58:23.085827 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+10:58:23.085839 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+10:58:23.085850 [info ]: Started analyzing (1 nodes)
+10:58:23.085854 [debug]: Started analyzing model dbt_cosmos_airflow.dim_date
+10:58:23.095493 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.dim_date (table)
+10:58:23.095514 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.dim_date [success]
+10:58:23.095520 [info ]: Finished analyzing [  0.01s] (1 nodes, 0 skipped, 0 errors)
+10:58:23.095564 [debug]: Incremental compilation - 1 nodes selected: {"model.northwind.dim_date"}
+10:58:23.098082 [info ]: Cached model count updated: 4 models (accurate)
+10:58:46.100534 [info ]: Started loading project
+10:58:46.107569 [info ]: Started loading project
+10:58:46.108457 [info ]: Finished loading project [  0.01s]
+10:58:46.406738 [info ]: Started parsing
+10:58:46.438343 [info ]: Finished loading project [  0.33s]
+10:58:46.444190 [info ]: Finished parsing [  0.04s]
+10:58:46.444618 [info ]: Cached model count updated: 5 models (estimate)
+10:58:46.444625 [info ]: Cached model count updated: 5 models (accurate)
+10:58:46.444638 [info ]: Started scheduling
+10:58:46.444683 [info ]: Finished scheduling [  0.00s]
+10:58:46.555412 [info ]: Started building task graph
+10:58:46.555503 [info ]: Finished building task graph [  0.00s]
+10:58:46.555602 [info ]: Started rendering (7 nodes)
+10:58:46.555614 [info ]: Started seed dbt_cosmos_airflow.suppliers
+10:58:46.555623 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+10:58:46.555636 [info ]: Started seed dbt_cosmos_airflow.products
+10:58:46.555642 [debug]: Started rendering seed dbt_cosmos_airflow.products
+10:58:46.555654 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+10:58:46.555662 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+10:58:46.555672 [info ]: Started model dbt_cosmos_airflow.dim_date
+10:58:46.555678 [debug]: Started rendering model dbt_cosmos_airflow.dim_date
+10:58:46.557025 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+10:58:46.557056 [info ]: Started analyzing (7 nodes)
+10:58:46.557063 [debug]: Started analyzing model dbt_cosmos_airflow.dim_date
+10:58:46.559498 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.products [success]
+10:58:46.559520 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+10:58:46.559539 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.products (table)
+10:58:46.559550 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+10:58:46.559558 [info ]: Started model dbt_cosmos_airflow.stg_products
+10:58:46.559563 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+10:58:46.559579 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+10:58:46.559591 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+10:58:46.559603 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.suppliers (table)
+10:58:46.559611 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+10:58:46.559618 [info ]: Started model dbt_cosmos_airflow.stg_suppliers
+10:58:46.559622 [debug]: Started rendering model dbt_cosmos_airflow.stg_suppliers
+10:58:46.559901 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+10:58:46.559915 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+10:58:46.559927 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+10:58:46.559936 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+10:58:46.559945 [info ]: Started model dbt_cosmos_airflow.stg_inventory_transactions
+10:58:46.559950 [debug]: Started rendering model dbt_cosmos_airflow.stg_inventory_transactions
+10:58:46.561254 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+10:58:46.561270 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+10:58:46.561299 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+10:58:46.561328 [debug]: Started analyzing model dbt_cosmos_airflow.stg_suppliers
+10:58:46.561641 [debug]: Started analyzing model dbt_cosmos_airflow.stg_inventory_transactions
+10:58:46.561663 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+10:58:46.561669 [info ]: Finished rendering [  0.01s] (7 nodes, 0 skipped, 0 errors)
+10:58:46.563330 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_suppliers (view)
+10:58:46.563350 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+10:58:46.563402 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions (view)
+10:58:46.563412 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+10:58:46.563420 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_products (view)
+10:58:46.563427 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+10:58:46.571686 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.dim_date (table)
+10:58:46.571715 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.dim_date [success]
+10:58:46.571721 [info ]: Finished analyzing [  0.01s] (7 nodes, 0 skipped, 0 errors)
+10:58:46.574429 [info ]: Cached model count updated: 5 models (accurate)
+10:58:49.907998 [info ]: Started loading project
+10:58:49.917417 [info ]: Started parsing
+10:58:49.933707 [info ]: Finished loading project [  0.03s]
+10:58:49.936601 [info ]: Finished parsing [  0.02s]
+10:58:49.938271 [info ]: Cached model count updated: 5 models (estimate)
+10:58:49.938279 [info ]: Cached model count updated: 5 models (accurate)
+10:58:49.938300 [info ]: Started scheduling
+10:58:49.938353 [info ]: Finished scheduling [  0.00s]
+10:58:50.093954 [info ]: Started building task graph
+10:58:50.094003 [info ]: Finished building task graph [  0.00s]
+10:58:50.094078 [info ]: Started rendering (1 nodes)
+10:58:50.094089 [info ]: Started model dbt_cosmos_airflow.dim_product
+10:58:50.094098 [debug]: Started rendering model dbt_cosmos_airflow.dim_product
+10:58:50.095855 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_product [success]
+10:58:50.095866 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+10:58:50.095876 [info ]: Started analyzing (1 nodes)
+10:58:50.095879 [debug]: Started analyzing model dbt_cosmos_airflow.dim_product
+10:58:50.107625 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.dim_product (table)
+10:58:50.107645 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.dim_product [success]
+10:58:50.107649 [info ]: Finished analyzing [  0.01s] (1 nodes, 0 skipped, 0 errors)
+10:58:50.107689 [debug]: Incremental compilation - 1 nodes selected: {"model.northwind.dim_product"}
+10:58:50.110084 [info ]: Cached model count updated: 5 models (accurate)
+10:59:35.439143 [info ]: Started loading project
+10:59:35.446643 [info ]: Started loading project
+10:59:35.447283 [info ]: Finished loading project [  0.01s]
+10:59:35.799265 [info ]: Started parsing
+10:59:35.838861 [info ]: Finished loading project [  0.39s]
+10:59:35.846515 [info ]: Finished parsing [  0.05s]
+10:59:35.846971 [info ]: Cached model count updated: 6 models (estimate)
+10:59:35.846979 [info ]: Cached model count updated: 6 models (accurate)
+10:59:35.846994 [info ]: Started scheduling
+10:59:35.847048 [info ]: Finished scheduling [  0.00s]
+10:59:35.960224 [info ]: Started building task graph
+10:59:35.960304 [info ]: Finished building task graph [  0.00s]
+10:59:35.960395 [info ]: Started rendering (8 nodes)
+10:59:35.960405 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+10:59:35.960412 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+10:59:35.960424 [info ]: Started seed dbt_cosmos_airflow.suppliers
+10:59:35.960429 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+10:59:35.960439 [info ]: Started seed dbt_cosmos_airflow.products
+10:59:35.960445 [debug]: Started rendering seed dbt_cosmos_airflow.products
+10:59:35.960453 [info ]: Started model dbt_cosmos_airflow.dim_date
+10:59:35.960457 [debug]: Started rendering model dbt_cosmos_airflow.dim_date
+10:59:35.961718 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+10:59:35.961740 [info ]: Started analyzing (8 nodes)
+10:59:35.961746 [debug]: Started analyzing model dbt_cosmos_airflow.dim_date
+10:59:35.963583 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.dim_date (table)
+10:59:35.963600 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+10:59:35.964567 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.products [success]
+10:59:35.964586 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+10:59:35.964597 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+10:59:35.964604 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+10:59:35.964616 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+10:59:35.964624 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+10:59:35.964640 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+10:59:35.964651 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+10:59:35.964660 [info ]: Started model dbt_cosmos_airflow.stg_inventory_transactions
+10:59:35.964666 [debug]: Started rendering model dbt_cosmos_airflow.stg_inventory_transactions
+10:59:35.964674 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.products (table)
+10:59:35.964682 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+10:59:35.964692 [info ]: Started model dbt_cosmos_airflow.stg_products
+10:59:35.964696 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+10:59:35.964704 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.suppliers (table)
+10:59:35.964710 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+10:59:35.964716 [info ]: Started model dbt_cosmos_airflow.stg_suppliers
+10:59:35.964720 [debug]: Started rendering model dbt_cosmos_airflow.stg_suppliers
+10:59:35.966141 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+10:59:35.966143 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+10:59:35.966226 [debug]: Started analyzing model dbt_cosmos_airflow.stg_inventory_transactions
+10:59:35.966229 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+10:59:35.966286 [debug]: Started analyzing model dbt_cosmos_airflow.stg_suppliers
+10:59:35.966289 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+10:59:35.967272 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions (view)
+10:59:35.967290 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+10:59:35.967384 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_products (view)
+10:59:35.967394 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+10:59:35.967867 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_suppliers (view)
+10:59:35.967877 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+10:59:35.967888 [info ]: Started model dbt_cosmos_airflow.dim_product
+10:59:35.967896 [debug]: Started rendering model dbt_cosmos_airflow.dim_product
+10:59:35.968692 [debug]: Started analyzing model dbt_cosmos_airflow.dim_product
+10:59:35.968695 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_product [success]
+10:59:35.968701 [info ]: Finished rendering [  0.01s] (8 nodes, 0 skipped, 0 errors)
+10:59:35.971704 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.dim_product (table)
+10:59:35.971722 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.dim_product [success]
+10:59:35.971726 [info ]: Finished analyzing [  0.01s] (8 nodes, 0 skipped, 0 errors)
+10:59:35.974130 [info ]: Cached model count updated: 6 models (accurate)
+10:59:38.537134 [info ]: Started loading project
+10:59:38.546264 [info ]: Started parsing
+10:59:38.562160 [info ]: Finished loading project [  0.03s]
+10:59:38.566865 [info ]: Finished parsing [  0.02s]
+10:59:38.569020 [info ]: Cached model count updated: 6 models (estimate)
+10:59:38.569033 [info ]: Cached model count updated: 6 models (accurate)
+10:59:38.569063 [info ]: Started scheduling
+10:59:38.569132 [info ]: Finished scheduling [  0.00s]
+10:59:38.701490 [info ]: Started building task graph
+10:59:38.701545 [info ]: Finished building task graph [  0.00s]
+10:59:38.701622 [info ]: Started rendering (1 nodes)
+10:59:38.701633 [info ]: Started model dbt_cosmos_airflow.fact_inventory
+10:59:38.701642 [debug]: Started rendering model dbt_cosmos_airflow.fact_inventory
+10:59:38.703265 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.fact_inventory [error]
+10:59:38.703274 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+10:59:38.703306 [error]: dbt1005: Configuration Error: Keyfile '/opt/airflow/include/learning-gcp-369416-93c90510f16c.json' does not exist
+(in models/warehouse/fact_inventory.sql:27:11)
+(in dbt_internal_packages/dbt-adapters/macros/materializations/models/incremental/is_incremental.sql:7:34)
+  --> models/warehouse/fact_inventory.sql:27:11
+10:59:38.703319 [info ]: Started analyzing (1 nodes)
+10:59:38.703322 [debug]: Started analyzing model dbt_cosmos_airflow.fact_inventory
+10:59:38.703331 [info ]:     Failed [  0.00s] model dbt_cosmos_airflow.fact_inventory (incremental)
+10:59:38.703343 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.fact_inventory [skipped]
+10:59:38.703347 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+10:59:38.703388 [debug]: Incremental compilation - 1 nodes selected: {"model.northwind.fact_inventory"}
+10:59:38.705647 [info ]: Cached model count updated: 6 models (accurate)
+11:00:09.965594 [info ]: Started loading project
+11:00:09.972265 [info ]: Started loading project
+11:00:09.972973 [info ]: Finished loading project [  0.01s]
+11:00:10.408254 [info ]: Started parsing
+11:00:10.491568 [info ]: Finished loading project [  0.52s]
+11:00:10.498805 [info ]: Finished parsing [  0.09s]
+11:00:10.499300 [info ]: Cached model count updated: 6 models (estimate)
+11:00:10.499308 [info ]: Cached model count updated: 6 models (accurate)
+11:00:10.499323 [info ]: Started scheduling
+11:00:10.499380 [info ]: Finished scheduling [  0.00s]
+11:00:10.618590 [info ]: Started building task graph
+11:00:10.618677 [info ]: Finished building task graph [  0.00s]
+11:00:10.618767 [info ]: Started rendering (9 nodes)
+11:00:10.618776 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+11:00:10.618783 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+11:00:10.618795 [info ]: Started seed dbt_cosmos_airflow.suppliers
+11:00:10.618800 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+11:00:10.618810 [info ]: Started seed dbt_cosmos_airflow.products
+11:00:10.618815 [debug]: Started rendering seed dbt_cosmos_airflow.products
+11:00:10.618822 [info ]: Started model dbt_cosmos_airflow.dim_date
+11:00:10.618827 [debug]: Started rendering model dbt_cosmos_airflow.dim_date
+11:00:10.620619 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+11:00:10.620646 [info ]: Started analyzing (9 nodes)
+11:00:10.620653 [debug]: Started analyzing model dbt_cosmos_airflow.dim_date
+11:00:10.623180 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.products [success]
+11:00:10.623215 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+11:00:10.623229 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+11:00:10.623236 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+11:00:10.623249 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+11:00:10.623256 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+11:00:10.623268 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.products (table)
+11:00:10.623278 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+11:00:10.623287 [info ]: Started model dbt_cosmos_airflow.stg_products
+11:00:10.623293 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+11:00:10.623301 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.suppliers (table)
+11:00:10.623309 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+11:00:10.623315 [info ]: Started model dbt_cosmos_airflow.stg_suppliers
+11:00:10.623320 [debug]: Started rendering model dbt_cosmos_airflow.stg_suppliers
+11:00:10.623357 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+11:00:10.623452 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+11:00:10.623481 [info ]: Started model dbt_cosmos_airflow.stg_inventory_transactions
+11:00:10.623496 [debug]: Started rendering model dbt_cosmos_airflow.stg_inventory_transactions
+11:00:10.626524 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+11:00:10.626567 [debug]: Started analyzing model dbt_cosmos_airflow.stg_inventory_transactions
+11:00:10.626594 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+11:00:10.626611 [debug]: Started analyzing model dbt_cosmos_airflow.stg_suppliers
+11:00:10.627073 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+11:00:10.627104 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+11:00:10.629415 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.stg_suppliers (view)
+11:00:10.629459 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+11:00:10.629486 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.stg_inventory_transactions (view)
+11:00:10.629509 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+11:00:10.629542 [info ]: Started model dbt_cosmos_airflow.fact_inventory
+11:00:10.629558 [debug]: Started rendering model dbt_cosmos_airflow.fact_inventory
+11:00:10.630706 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.fact_inventory [error]
+11:00:10.630732 [error]: dbt1005: Configuration Error: Keyfile '/opt/airflow/include/learning-gcp-369416-93c90510f16c.json' does not exist
+(in models/warehouse/fact_inventory.sql:27:11)
+(in dbt_internal_packages/dbt-adapters/macros/materializations/models/incremental/is_incremental.sql:7:34)
+  --> models/warehouse/fact_inventory.sql:27:11
+11:00:10.630745 [debug]: Started analyzing model dbt_cosmos_airflow.fact_inventory
+11:00:10.630755 [info ]:     Failed [  0.00s] model dbt_cosmos_airflow.fact_inventory (incremental)
+11:00:10.630763 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.fact_inventory [skipped]
+11:00:10.633310 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.dim_date (table)
+11:00:10.633334 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.dim_date [success]
+11:00:10.638067 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.stg_products (view)
+11:00:10.638090 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.stg_products [success]
+11:00:10.638108 [info ]: Started model dbt_cosmos_airflow.dim_product
+11:00:10.638116 [debug]: Started rendering model dbt_cosmos_airflow.dim_product
+11:00:10.639191 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_product [success]
+11:00:10.639203 [info ]: Finished rendering [  0.02s] (9 nodes, 0 skipped, 1 errors)
+11:00:10.639214 [debug]: Started analyzing model dbt_cosmos_airflow.dim_product
+11:00:10.651439 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.dim_product (table)
+11:00:10.651463 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.dim_product [success]
+11:00:10.651469 [info ]: Finished analyzing [  0.03s] (9 nodes, 1 skipped, 0 errors)
+11:00:10.654240 [info ]: Cached model count updated: 6 models (accurate)
+11:00:11.033780 [info ]: Started loading project
+11:00:11.044649 [info ]: Started parsing
+11:00:11.080763 [info ]: Finished loading project [  0.05s]
+11:00:11.110968 [info ]: Finished parsing [  0.07s]
+11:00:11.112373 [info ]: Cached model count updated: 6 models (estimate)
+11:00:11.112391 [info ]: Cached model count updated: 6 models (accurate)
+11:00:11.112428 [info ]: Started scheduling
+11:00:11.112496 [info ]: Finished scheduling [  0.00s]
+11:00:11.112511 [warn ]: dbt1000: The selection criterion '' does not match any enabled nodes
+11:00:11.112516 [warn ]: dbt1000: Nothing to do. Try checking your model configs and model specification args
+11:00:11.248049 [info ]: Started building task graph
+11:00:11.248107 [info ]: Finished building task graph [  0.00s]
+11:00:11.248236 [debug]: Incremental compilation - 0 nodes selected: {}
+11:00:11.250919 [info ]: Cached model count updated: 6 models (accurate)
+13:57:35.816571 [info ]: Started loading project
+13:57:35.827680 [info ]: Started loading project
+13:57:35.828469 [info ]: Finished loading project [  0.01s]
+13:57:36.182537 [info ]: Started parsing
+13:57:36.226891 [info ]: Finished loading project [  0.40s]
+13:57:36.265581 [info ]: Finished parsing [  0.08s]
+13:57:36.266316 [info ]: Cached model count updated: 6 models (estimate)
+13:57:36.266326 [info ]: Cached model count updated: 6 models (accurate)
+13:57:36.266377 [info ]: Started scheduling
+13:57:36.266482 [info ]: Finished scheduling [  0.00s]
+13:57:36.486840 [info ]: Started building task graph
+13:57:36.486979 [info ]: Finished building task graph [  0.00s]
+13:57:36.487110 [info ]: Started rendering (10 nodes)
+13:57:36.487125 [info ]: Started seed dbt_cosmos_airflow.customers
+13:57:36.487141 [debug]: Started rendering seed dbt_cosmos_airflow.customers
+13:57:36.487155 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+13:57:36.487159 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+13:57:36.487170 [info ]: Started seed dbt_cosmos_airflow.suppliers
+13:57:36.487175 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+13:57:36.487181 [info ]: Started seed dbt_cosmos_airflow.products
+13:57:36.487186 [debug]: Started rendering seed dbt_cosmos_airflow.products
+13:57:36.487194 [info ]: Started model dbt_cosmos_airflow.dim_date
+13:57:36.487199 [debug]: Started rendering model dbt_cosmos_airflow.dim_date
+13:57:36.489124 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+13:57:36.489161 [info ]: Started analyzing (10 nodes)
+13:57:36.489173 [debug]: Started analyzing model dbt_cosmos_airflow.dim_date
+13:57:36.492026 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.dim_date (table)
+13:57:36.492053 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+13:57:36.492873 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.customers [error]
+13:57:36.492929 [error]: dbt1000: Arrow error: Parquet argument error: Failed to read record batch: External error: Arrow error: Csv error: incorrect number of fields for line 1, expected 0 got more than 0
+13:57:36.492951 [debug]: Started analyzing seed dbt_cosmos_airflow.customers
+13:57:36.492965 [info ]:     Failed [  0.01s] seed  dbt_cosmos_airflow.customers (table)
+13:57:36.492975 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.customers [skipped]
+13:57:36.494341 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.inventory_transactions [success]
+13:57:36.494380 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+13:57:36.494397 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.suppliers [success]
+13:57:36.494405 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+13:57:36.494428 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.suppliers (table)
+13:57:36.494439 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+13:57:36.494453 [info ]: Started model dbt_cosmos_airflow.stg_suppliers
+13:57:36.494459 [debug]: Started rendering model dbt_cosmos_airflow.stg_suppliers
+13:57:36.494470 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+13:57:36.494478 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+13:57:36.494487 [info ]: Started model dbt_cosmos_airflow.stg_inventory_transactions
+13:57:36.494492 [debug]: Started rendering model dbt_cosmos_airflow.stg_inventory_transactions
+13:57:36.496992 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.products [success]
+13:57:36.497026 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+13:57:36.497055 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.products (table)
+13:57:36.497068 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+13:57:36.497079 [info ]: Started model dbt_cosmos_airflow.stg_products
+13:57:36.497086 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+13:57:36.497121 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+13:57:36.497126 [debug]: Started analyzing model dbt_cosmos_airflow.stg_inventory_transactions
+13:57:36.498307 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+13:57:36.498330 [debug]: Started analyzing model dbt_cosmos_airflow.stg_suppliers
+13:57:36.500029 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions (view)
+13:57:36.500054 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+13:57:36.500071 [info ]: Started model dbt_cosmos_airflow.fact_inventory
+13:57:36.500079 [debug]: Started rendering model dbt_cosmos_airflow.fact_inventory
+13:57:36.503618 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.stg_suppliers (view)
+13:57:36.503643 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.stg_suppliers [success]
+13:57:36.503657 [debug]: Finished rendering [  0.01s] model dbt_cosmos_airflow.stg_products [success]
+13:57:36.503669 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+13:57:36.503917 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.fact_inventory [error]
+13:57:36.503942 [error]: dbt1005: Configuration Error: Keyfile '/opt/airflow/include/learning-gcp-369416-93c90510f16c.json' does not exist
+(in models/warehouse/fact_inventory.sql:27:11)
+(in dbt_internal_packages/dbt-adapters/macros/materializations/models/incremental/is_incremental.sql:7:34)
+  --> models/warehouse/fact_inventory.sql:27:11
+13:57:36.503957 [debug]: Started analyzing model dbt_cosmos_airflow.fact_inventory
+13:57:36.503968 [info ]:     Failed [  0.00s] model dbt_cosmos_airflow.fact_inventory (incremental)
+13:57:36.503979 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.fact_inventory [skipped]
+13:57:36.507385 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.stg_products (view)
+13:57:36.507424 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+13:57:36.507446 [info ]: Started model dbt_cosmos_airflow.dim_product
+13:57:36.507455 [debug]: Started rendering model dbt_cosmos_airflow.dim_product
+13:57:36.509488 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_product [success]
+13:57:36.509506 [info ]: Finished rendering [  0.02s] (10 nodes, 0 skipped, 2 errors)
+13:57:36.509521 [debug]: Started analyzing model dbt_cosmos_airflow.dim_product
+13:57:36.523240 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.dim_product (table)
+13:57:36.523270 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.dim_product [success]
+13:57:36.523277 [info ]: Finished analyzing [  0.03s] (10 nodes, 2 skipped, 0 errors)
+13:57:36.526612 [info ]: Cached model count updated: 6 models (accurate)
+13:57:37.479254 [info ]: Started loading project
+13:57:37.493755 [info ]: Started parsing
+13:57:37.516405 [info ]: Finished loading project [  0.04s]
+13:57:37.519218 [info ]: Finished parsing [  0.03s]
+13:57:37.521583 [info ]: Cached model count updated: 6 models (estimate)
+13:57:37.521600 [info ]: Cached model count updated: 6 models (accurate)
+13:57:37.521632 [info ]: Started scheduling
+13:57:37.521740 [info ]: Finished scheduling [  0.00s]
+13:57:37.687606 [info ]: Started building task graph
+13:57:37.687672 [info ]: Finished building task graph [  0.00s]
+13:57:37.687763 [info ]: Started rendering (1 nodes)
+13:57:37.687774 [info ]: Started seed dbt_cosmos_airflow.customers
+13:57:37.687783 [debug]: Started rendering seed dbt_cosmos_airflow.customers
+13:57:37.704425 [debug]: Finished rendering [  0.02s] seed dbt_cosmos_airflow.customers [success]
+13:57:37.704446 [info ]: Finished rendering [  0.02s] (1 nodes, 0 skipped, 0 errors)
+13:57:37.704464 [info ]: Started analyzing (1 nodes)
+13:57:37.704470 [debug]: Started analyzing seed dbt_cosmos_airflow.customers
+13:57:37.704494 [info ]:  Succeeded [  0.02s] seed  dbt_cosmos_airflow.customers (table)
+13:57:37.704507 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.customers [success]
+13:57:37.704511 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:57:37.704568 [debug]: Incremental compilation - 1 nodes selected: {"seed.northwind.customers"}
+13:57:37.707268 [info ]: Cached model count updated: 6 models (accurate)
+13:58:38.690652 [info ]: Started loading project
+13:58:38.701536 [info ]: Started loading project
+13:58:38.702689 [info ]: Finished loading project [  0.01s]
+13:58:39.046560 [info ]: Started parsing
+13:58:39.088382 [info ]: Finished loading project [  0.39s]
+13:58:39.117031 [info ]: Finished parsing [  0.07s]
+13:58:39.117615 [info ]: Cached model count updated: 7 models (estimate)
+13:58:39.117621 [info ]: Cached model count updated: 7 models (accurate)
+13:58:39.117639 [info ]: Started scheduling
+13:58:39.117702 [info ]: Finished scheduling [  0.00s]
+13:58:39.239283 [info ]: Started building task graph
+13:58:39.239390 [info ]: Finished building task graph [  0.00s]
+13:58:39.239486 [info ]: Started rendering (10 nodes)
+13:58:39.239496 [info ]: Started seed dbt_cosmos_airflow.customers
+13:58:39.239503 [debug]: Started rendering seed dbt_cosmos_airflow.customers
+13:58:39.239515 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+13:58:39.239520 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+13:58:39.239530 [info ]: Started seed dbt_cosmos_airflow.suppliers
+13:58:39.239539 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+13:58:39.239548 [info ]: Started seed dbt_cosmos_airflow.products
+13:58:39.239554 [debug]: Started rendering seed dbt_cosmos_airflow.products
+13:58:39.239562 [info ]: Started model dbt_cosmos_airflow.dim_date
+13:58:39.239566 [debug]: Started rendering model dbt_cosmos_airflow.dim_date
+13:58:39.240889 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+13:58:39.240914 [info ]: Started analyzing (10 nodes)
+13:58:39.240920 [debug]: Started analyzing model dbt_cosmos_airflow.dim_date
+13:58:39.242629 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.dim_date (table)
+13:58:39.242655 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+13:58:39.243205 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+13:58:39.243222 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+13:58:39.243239 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+13:58:39.243250 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+13:58:39.243259 [info ]: Started model dbt_cosmos_airflow.stg_inventory_transactions
+13:58:39.243267 [debug]: Started rendering model dbt_cosmos_airflow.stg_inventory_transactions
+13:58:39.243359 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.customers [success]
+13:58:39.243368 [debug]: Started analyzing seed dbt_cosmos_airflow.customers
+13:58:39.243376 [debug]: Finished rendering [  0.00s] seed dbt_cosmos_airflow.products [success]
+13:58:39.243382 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+13:58:39.243393 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.products (table)
+13:58:39.243402 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+13:58:39.243410 [info ]: Started model dbt_cosmos_airflow.stg_products
+13:58:39.243415 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+13:58:39.243423 [info ]:  Succeeded [  0.00s] seed  dbt_cosmos_airflow.customers (table)
+13:58:39.243433 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.customers [success]
+13:58:39.244133 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+13:58:39.244155 [debug]: Started analyzing model dbt_cosmos_airflow.stg_inventory_transactions
+13:58:39.244191 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+13:58:39.244190 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+13:58:39.244634 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.suppliers [success]
+13:58:39.244644 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+13:58:39.244656 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.suppliers (table)
+13:58:39.244666 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+13:58:39.244674 [info ]: Started model dbt_cosmos_airflow.stg_suppliers
+13:58:39.244679 [debug]: Started rendering model dbt_cosmos_airflow.stg_suppliers
+13:58:39.245408 [debug]: Started analyzing model dbt_cosmos_airflow.stg_suppliers
+13:58:39.245411 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+13:58:39.245868 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_products (view)
+13:58:39.245882 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+13:58:39.246480 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_suppliers (view)
+13:58:39.246490 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+13:58:39.246499 [info ]: Started model dbt_cosmos_airflow.dim_product
+13:58:39.246503 [debug]: Started rendering model dbt_cosmos_airflow.dim_product
+13:58:39.248685 [debug]: Started analyzing model dbt_cosmos_airflow.dim_product
+13:58:39.248682 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_product [success]
+13:58:39.254943 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.stg_inventory_transactions (view)
+13:58:39.254967 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+13:58:39.254985 [info ]: Started model dbt_cosmos_airflow.fact_inventory
+13:58:39.254992 [debug]: Started rendering model dbt_cosmos_airflow.fact_inventory
+13:58:39.255006 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.dim_product (table)
+13:58:39.255014 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.dim_product [success]
+13:58:39.255842 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.fact_inventory [error]
+13:58:39.255852 [info ]: Finished rendering [  0.02s] (10 nodes, 0 skipped, 1 errors)
+13:58:39.255871 [error]: dbt1005: Configuration Error: Keyfile '/opt/airflow/include/learning-gcp-369416-93c90510f16c.json' does not exist
+(in models/warehouse/fact_inventory.sql:27:11)
+(in dbt_internal_packages/dbt-adapters/macros/materializations/models/incremental/is_incremental.sql:7:34)
+  --> models/warehouse/fact_inventory.sql:27:11
+13:58:39.255886 [debug]: Started analyzing model dbt_cosmos_airflow.fact_inventory
+13:58:39.255899 [info ]:     Failed [-------] model dbt_cosmos_airflow.fact_inventory (incremental)
+13:58:39.255910 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.fact_inventory [skipped]
+13:58:39.255914 [info ]: Finished analyzing [  0.01s] (10 nodes, 1 skipped, 0 errors)
+13:58:39.258220 [info ]: Cached model count updated: 7 models (accurate)
+13:59:14.620810 [info ]: Started loading project
+13:59:14.633350 [info ]: Started parsing
+13:59:14.649061 [info ]: Finished loading project [  0.03s]
+13:59:14.651396 [error]: dbt1005: Ref 'customer' not found in project. Searched for 'northwind.customer, customer'
+  --> models/staging/stg_customers.sql:3:19
+13:59:14.652908 [info ]: Cached model count updated: 7 models (estimate)
+13:59:14.652915 [info ]: Cached model count updated: 7 models (accurate)
+13:59:14.652938 [info ]: Started scheduling
+13:59:14.653011 [info ]: Finished scheduling [  0.00s]
+13:59:14.780852 [info ]: Started building task graph
+13:59:14.780896 [info ]: Finished building task graph [  0.00s]
+13:59:14.780956 [info ]: Started rendering (1 nodes)
+13:59:14.780966 [info ]: Started model dbt_cosmos_airflow.stg_customers
+13:59:14.780973 [debug]: Started rendering model dbt_cosmos_airflow.stg_customers
+13:59:14.781009 [info ]: Finished parsing [  0.15s]
+13:59:14.781613 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_customers [error]
+13:59:14.781621 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+13:59:14.781638 [error]: dbt1501: Failed to render SQL not a key type: ref not found for package: northwind, model: customer, version: None
+(in models/staging/stg_customers.sql:3:19)
+  --> models/staging/stg_customers.sql:3:19
+13:59:14.781651 [info ]: Started analyzing (1 nodes)
+13:59:14.781656 [debug]: Started analyzing model dbt_cosmos_airflow.stg_customers
+13:59:14.781667 [info ]:     Failed [-------] model dbt_cosmos_airflow.stg_customers (view)
+13:59:14.781677 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_customers [skipped]
+13:59:14.781681 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+13:59:14.781724 [debug]: Incremental compilation - 1 nodes selected: {"model.northwind.stg_customers"}
+13:59:14.783635 [info ]: Cached model count updated: 7 models (accurate)
+13:59:56.207744 [info ]: Started loading project
+13:59:56.213987 [info ]: Started parsing
+13:59:56.227138 [info ]: Finished loading project [  0.02s]
+13:59:56.229394 [error]: dbt1005: Ref 'customer' not found in project. Searched for 'northwind.customer, customer'
+  --> models/staging/stg_customers.sql:2:19
+13:59:56.231730 [info ]: Cached model count updated: 7 models (estimate)
+13:59:56.231741 [info ]: Cached model count updated: 7 models (accurate)
+13:59:56.231780 [info ]: Started scheduling
+13:59:56.231890 [info ]: Finished scheduling [  0.00s]
+13:59:56.397698 [info ]: Started building task graph
+13:59:56.397750 [info ]: Finished building task graph [  0.00s]
+13:59:56.397822 [info ]: Started rendering (1 nodes)
+13:59:56.397832 [info ]: Started model dbt_cosmos_airflow.stg_customers
+13:59:56.397841 [debug]: Started rendering model dbt_cosmos_airflow.stg_customers
+13:59:56.397882 [info ]: Finished parsing [  0.18s]
+13:59:56.398466 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_customers [error]
+13:59:56.398474 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+13:59:56.398492 [error]: dbt1501: Failed to render SQL not a key type: ref not found for package: northwind, model: customer, version: None
+(in models/staging/stg_customers.sql:2:19)
+  --> models/staging/stg_customers.sql:2:19
+13:59:56.398504 [info ]: Started analyzing (1 nodes)
+13:59:56.398509 [debug]: Started analyzing model dbt_cosmos_airflow.stg_customers
+13:59:56.398520 [info ]:     Failed [-------] model dbt_cosmos_airflow.stg_customers (view)
+13:59:56.398533 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_customers [skipped]
+13:59:56.398536 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+13:59:56.398582 [debug]: Incremental compilation - 1 nodes selected: {"model.northwind.stg_customers"}
+13:59:56.401380 [info ]: Cached model count updated: 7 models (accurate)
+14:00:11.200788 [info ]: Started loading project
+14:00:11.209793 [info ]: Started parsing
+14:00:11.224812 [info ]: Finished loading project [  0.02s]
+14:00:11.227713 [error]: dbt1005: Ref 'customer' not found in project. Searched for 'northwind.customer, customer'
+  --> models/staging/stg_customers.sql:3:19
+14:00:11.230158 [info ]: Cached model count updated: 7 models (estimate)
+14:00:11.230167 [info ]: Cached model count updated: 7 models (accurate)
+14:00:11.230200 [info ]: Started scheduling
+14:00:11.230286 [info ]: Finished scheduling [  0.00s]
+14:00:11.369872 [info ]: Started building task graph
+14:00:11.369941 [info ]: Finished building task graph [  0.00s]
+14:00:11.370038 [info ]: Started rendering (1 nodes)
+14:00:11.370051 [info ]: Started model dbt_cosmos_airflow.stg_customers
+14:00:11.370063 [debug]: Started rendering model dbt_cosmos_airflow.stg_customers
+14:00:11.370110 [info ]: Finished parsing [  0.16s]
+14:00:11.370569 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_customers [error]
+14:00:11.370576 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+14:00:11.370597 [error]: dbt1501: Failed to render SQL not a key type: ref not found for package: northwind, model: customer, version: None
+(in models/staging/stg_customers.sql:3:19)
+  --> models/staging/stg_customers.sql:3:19
+14:00:11.370613 [info ]: Started analyzing (1 nodes)
+14:00:11.370617 [debug]: Started analyzing model dbt_cosmos_airflow.stg_customers
+14:00:11.370629 [info ]:     Failed [-------] model dbt_cosmos_airflow.stg_customers (view)
+14:00:11.370642 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_customers [skipped]
+14:00:11.370645 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+14:00:11.370704 [debug]: Incremental compilation - 1 nodes selected: {"model.northwind.stg_customers"}
+14:00:11.373692 [info ]: Cached model count updated: 7 models (accurate)
+14:00:18.931187 [info ]: Started loading project
+14:00:18.937536 [info ]: Started parsing
+14:00:18.947898 [info ]: Finished loading project [  0.02s]
+14:00:18.949762 [info ]: Finished parsing [  0.01s]
+14:00:18.951258 [info ]: Cached model count updated: 7 models (estimate)
+14:00:18.951269 [info ]: Cached model count updated: 7 models (accurate)
+14:00:18.951296 [info ]: Started scheduling
+14:00:18.951366 [info ]: Finished scheduling [  0.00s]
+14:00:19.073737 [info ]: Started building task graph
+14:00:19.073792 [info ]: Finished building task graph [  0.00s]
+14:00:19.073866 [info ]: Started rendering (1 nodes)
+14:00:19.073877 [info ]: Started model dbt_cosmos_airflow.stg_customers
+14:00:19.073885 [debug]: Started rendering model dbt_cosmos_airflow.stg_customers
+14:00:19.074885 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_customers [success]
+14:00:19.074898 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+14:00:19.074909 [info ]: Started analyzing (1 nodes)
+14:00:19.074914 [debug]: Started analyzing model dbt_cosmos_airflow.stg_customers
+14:00:19.076402 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_customers (view)
+14:00:19.076422 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_customers [success]
+14:00:19.076425 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+14:00:19.076476 [debug]: Incremental compilation - 1 nodes selected: {"model.northwind.stg_customers"}
+14:00:19.079750 [info ]: Cached model count updated: 7 models (accurate)
+14:01:04.491891 [info ]: Started loading project
+14:01:04.497075 [info ]: Started loading project
+14:01:04.497656 [info ]: Finished loading project [  0.01s]
+14:01:05.125776 [info ]: Started parsing
+14:01:05.171691 [info ]: Finished loading project [  0.67s]
+14:01:05.198206 [info ]: Finished parsing [  0.07s]
+14:01:05.200628 [info ]: Cached model count updated: 8 models (estimate)
+14:01:05.200642 [info ]: Cached model count updated: 8 models (accurate)
+14:01:05.200673 [info ]: Started scheduling
+14:01:05.200761 [info ]: Finished scheduling [  0.00s]
+14:01:05.358110 [info ]: Started building task graph
+14:01:05.358212 [info ]: Finished building task graph [  0.00s]
+14:01:05.358306 [info ]: Started rendering (11 nodes)
+14:01:05.358315 [info ]: Started seed dbt_cosmos_airflow.customers
+14:01:05.358323 [debug]: Started rendering seed dbt_cosmos_airflow.customers
+14:01:05.358336 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+14:01:05.358340 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+14:01:05.358352 [info ]: Started seed dbt_cosmos_airflow.suppliers
+14:01:05.358357 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+14:01:05.358364 [info ]: Started seed dbt_cosmos_airflow.products
+14:01:05.358369 [debug]: Started rendering seed dbt_cosmos_airflow.products
+14:01:05.358377 [info ]: Started model dbt_cosmos_airflow.dim_date
+14:01:05.358382 [debug]: Started rendering model dbt_cosmos_airflow.dim_date
+14:01:05.359434 [info ]: Started analyzing (11 nodes)
+14:01:05.359444 [debug]: Started analyzing model dbt_cosmos_airflow.dim_date
+14:01:05.359516 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+14:01:05.361392 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.dim_date (table)
+14:01:05.361424 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+14:01:05.364628 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.inventory_transactions [success]
+14:01:05.364650 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+14:01:05.364671 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+14:01:05.364682 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+14:01:05.364693 [info ]: Started model dbt_cosmos_airflow.stg_inventory_transactions
+14:01:05.364700 [debug]: Started rendering model dbt_cosmos_airflow.stg_inventory_transactions
+14:01:05.365311 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.products [success]
+14:01:05.365334 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+14:01:05.365348 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.suppliers [success]
+14:01:05.365356 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+14:01:05.365374 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.suppliers (table)
+14:01:05.365388 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+14:01:05.365399 [info ]: Started model dbt_cosmos_airflow.stg_suppliers
+14:01:05.365406 [debug]: Started rendering model dbt_cosmos_airflow.stg_suppliers
+14:01:05.365452 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.products (table)
+14:01:05.365462 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+14:01:05.365470 [info ]: Started model dbt_cosmos_airflow.stg_products
+14:01:05.365476 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+14:01:05.366867 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+14:01:05.366897 [debug]: Started analyzing model dbt_cosmos_airflow.stg_suppliers
+14:01:05.366914 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+14:01:05.366930 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+14:01:05.367074 [debug]: Started analyzing model dbt_cosmos_airflow.stg_inventory_transactions
+14:01:05.367100 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+14:01:05.368351 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions (view)
+14:01:05.368372 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+14:01:05.368386 [info ]: Started model dbt_cosmos_airflow.fact_inventory
+14:01:05.368395 [debug]: Started rendering model dbt_cosmos_airflow.fact_inventory
+14:01:05.369067 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_products (view)
+14:01:05.369083 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+14:01:05.369176 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_suppliers (view)
+14:01:05.369193 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+14:01:05.369205 [info ]: Started model dbt_cosmos_airflow.dim_product
+14:01:05.369212 [debug]: Started rendering model dbt_cosmos_airflow.dim_product
+14:01:05.369405 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.fact_inventory [error]
+14:01:05.369428 [error]: dbt1005: Configuration Error: Keyfile '/opt/airflow/include/learning-gcp-369416-93c90510f16c.json' does not exist
+(in models/warehouse/fact_inventory.sql:27:11)
+(in dbt_internal_packages/dbt-adapters/macros/materializations/models/incremental/is_incremental.sql:7:34)
+  --> models/warehouse/fact_inventory.sql:27:11
+14:01:05.369440 [debug]: Started analyzing model dbt_cosmos_airflow.fact_inventory
+14:01:05.369448 [info ]:     Failed [  0.00s] model dbt_cosmos_airflow.fact_inventory (incremental)
+14:01:05.369456 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.fact_inventory [skipped]
+14:01:05.369464 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.customers [success]
+14:01:05.369472 [debug]: Started analyzing seed dbt_cosmos_airflow.customers
+14:01:05.369485 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.customers (table)
+14:01:05.369498 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.customers [success]
+14:01:05.369511 [info ]: Started model dbt_cosmos_airflow.stg_customers
+14:01:05.369518 [debug]: Started rendering model dbt_cosmos_airflow.stg_customers
+14:01:05.370287 [debug]: Started analyzing model dbt_cosmos_airflow.dim_product
+14:01:05.370288 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_product [success]
+14:01:05.370513 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_customers [success]
+14:01:05.370522 [info ]: Finished rendering [  0.01s] (11 nodes, 0 skipped, 1 errors)
+14:01:05.370531 [debug]: Started analyzing model dbt_cosmos_airflow.stg_customers
+14:01:05.372126 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_customers (view)
+14:01:05.372141 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_customers [success]
+14:01:05.382712 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.dim_product (table)
+14:01:05.382738 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.dim_product [success]
+14:01:05.382745 [info ]: Finished analyzing [  0.02s] (11 nodes, 1 skipped, 0 errors)
+14:01:05.385251 [info ]: Cached model count updated: 8 models (accurate)
+14:01:10.197810 [info ]: Started loading project
+14:01:10.206274 [info ]: Started parsing
+14:01:10.222524 [info ]: Finished loading project [  0.02s]
+14:01:10.224991 [info ]: Finished parsing [  0.02s]
+14:01:10.226857 [info ]: Cached model count updated: 8 models (estimate)
+14:01:10.226867 [info ]: Cached model count updated: 8 models (accurate)
+14:01:10.226895 [info ]: Started scheduling
+14:01:10.226979 [info ]: Finished scheduling [  0.00s]
+14:01:10.346051 [info ]: Started building task graph
+14:01:10.346113 [info ]: Finished building task graph [  0.00s]
+14:01:10.346192 [info ]: Started rendering (1 nodes)
+14:01:10.346205 [info ]: Started model dbt_cosmos_airflow.dim_customers
+14:01:10.346215 [debug]: Started rendering model dbt_cosmos_airflow.dim_customers
+14:01:10.347481 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_customers [success]
+14:01:10.347493 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+14:01:10.347504 [info ]: Started analyzing (1 nodes)
+14:01:10.347509 [debug]: Started analyzing model dbt_cosmos_airflow.dim_customers
+14:01:10.349459 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.dim_customers (table)
+14:01:10.349476 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.dim_customers [success]
+14:01:10.349479 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+14:01:10.349527 [debug]: Incremental compilation - 1 nodes selected: {"model.northwind.dim_customers"}
+14:01:10.352081 [info ]: Cached model count updated: 8 models (accurate)
+14:02:13.407402 [info ]: Started loading project
+14:02:13.415972 [info ]: Started loading project
+14:02:13.416752 [info ]: Finished loading project [  0.01s]
+14:02:13.764520 [info ]: Started parsing
+14:02:13.803476 [info ]: Finished loading project [  0.39s]
+14:02:13.810793 [error]: dbt1005: Found duplicate resource definitions for model named 'fact_inventory' in ['models/staging/schema.yml', 'models/warehouse/schema.yml']
+  --> models/staging/schema.yml
+14:02:13.814002 [info ]: Finished parsing [  0.05s]
+14:04:11.566302 [info ]: Started loading project
+14:04:11.573693 [info ]: Started loading project
+14:04:11.574408 [info ]: Finished loading project [  0.01s]
+14:04:11.898648 [info ]: Started parsing
+14:04:11.934787 [info ]: Finished loading project [  0.36s]
+14:04:11.942384 [error]: dbt1005: Found duplicate resource definitions for model named 'fact_inventory' in ['models/staging/schema.yml', 'models/warehouse/schema.yml']
+  --> models/staging/schema.yml
+14:04:11.945380 [info ]: Finished parsing [  0.05s]
+14:04:23.588946 [info ]: Started loading project
+14:04:23.595484 [info ]: Started loading project
+14:04:23.596167 [info ]: Finished loading project [  0.01s]
+14:04:23.885668 [info ]: Started parsing
+14:04:23.927066 [info ]: Finished loading project [  0.33s]
+14:04:23.960545 [info ]: Finished parsing [  0.07s]
+14:04:23.961171 [info ]: Cached model count updated: 8 models (estimate)
+14:04:23.961181 [info ]: Cached model count updated: 8 models (accurate)
+14:04:23.961226 [info ]: Started scheduling
+14:04:23.961345 [info ]: Finished scheduling [  0.00s]
+14:04:24.164924 [info ]: Started building task graph
+14:04:24.165107 [info ]: Finished building task graph [  0.00s]
+14:04:24.165259 [info ]: Started rendering (12 nodes)
+14:04:24.165271 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+14:04:24.165291 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+14:04:24.165313 [info ]: Started seed dbt_cosmos_airflow.suppliers
+14:04:24.165320 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+14:04:24.165334 [info ]: Started seed dbt_cosmos_airflow.products
+14:04:24.165339 [debug]: Started rendering seed dbt_cosmos_airflow.products
+14:04:24.165347 [info ]: Started model dbt_cosmos_airflow.dim_date
+14:04:24.165352 [debug]: Started rendering model dbt_cosmos_airflow.dim_date
+14:04:24.165360 [info ]: Started seed dbt_cosmos_airflow.customers
+14:04:24.165365 [debug]: Started rendering seed dbt_cosmos_airflow.customers
+14:04:24.166888 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+14:04:24.166915 [info ]: Started analyzing (12 nodes)
+14:04:24.166927 [debug]: Started analyzing model dbt_cosmos_airflow.dim_date
+14:04:24.169173 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.dim_date (table)
+14:04:24.169199 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.dim_date [success]
+14:04:24.170422 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.inventory_transactions [success]
+14:04:24.170456 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+14:04:24.170535 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+14:04:24.170586 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+14:04:24.170634 [info ]: Started model dbt_cosmos_airflow.stg_inventory_transactions
+14:04:24.170652 [debug]: Started rendering model dbt_cosmos_airflow.stg_inventory_transactions
+14:04:24.170679 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.suppliers [success]
+14:04:24.170759 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+14:04:24.170800 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.suppliers (table)
+14:04:24.170814 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+14:04:24.170825 [info ]: Started model dbt_cosmos_airflow.stg_suppliers
+14:04:24.170831 [debug]: Started rendering model dbt_cosmos_airflow.stg_suppliers
+14:04:24.171833 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.products [success]
+14:04:24.171861 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+14:04:24.171880 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.products (table)
+14:04:24.171893 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+14:04:24.171902 [info ]: Started model dbt_cosmos_airflow.stg_products
+14:04:24.171907 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+14:04:24.171917 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.customers [success]
+14:04:24.171925 [debug]: Started analyzing seed dbt_cosmos_airflow.customers
+14:04:24.171937 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.customers (table)
+14:04:24.171946 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.customers [success]
+14:04:24.171953 [info ]: Started model dbt_cosmos_airflow.stg_customers
+14:04:24.171959 [debug]: Started rendering model dbt_cosmos_airflow.stg_customers
+14:04:24.173863 [debug]: Started analyzing model dbt_cosmos_airflow.stg_inventory_transactions
+14:04:24.173861 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+14:04:24.173929 [debug]: Started analyzing model dbt_cosmos_airflow.stg_suppliers
+14:04:24.173939 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_suppliers [success]
+14:04:24.174471 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+14:04:24.174494 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+14:04:24.174840 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.stg_customers [success]
+14:04:24.174921 [debug]: Started analyzing model dbt_cosmos_airflow.stg_customers
+14:04:24.175433 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions (view)
+14:04:24.175455 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+14:04:24.175469 [info ]: Started model dbt_cosmos_airflow.fact_inventory
+14:04:24.175478 [debug]: Started rendering model dbt_cosmos_airflow.fact_inventory
+14:04:24.176194 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_products (view)
+14:04:24.176208 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_products [success]
+14:04:24.176417 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.fact_inventory [error]
+14:04:24.176438 [error]: dbt1005: Configuration Error: Keyfile '/opt/airflow/include/learning-gcp-369416-93c90510f16c.json' does not exist
+(in models/warehouse/fact_inventory.sql:27:11)
+(in dbt_internal_packages/dbt-adapters/macros/materializations/models/incremental/is_incremental.sql:7:34)
+  --> models/warehouse/fact_inventory.sql:27:11
+14:04:24.176453 [debug]: Started analyzing model dbt_cosmos_airflow.fact_inventory
+14:04:24.176464 [info ]:     Failed [-------] model dbt_cosmos_airflow.fact_inventory (incremental)
+14:04:24.176473 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.fact_inventory [skipped]
+14:04:24.176577 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.stg_customers (view)
+14:04:24.176587 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.stg_customers [success]
+14:04:24.176604 [info ]: Started model dbt_cosmos_airflow.dim_customers
+14:04:24.176612 [debug]: Started rendering model dbt_cosmos_airflow.dim_customers
+14:04:24.178619 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_customers [success]
+14:04:24.178665 [debug]: Started analyzing model dbt_cosmos_airflow.dim_customers
+14:04:24.181713 [info ]:  Succeeded [  0.00s] model dbt_cosmos_airflow.dim_customers (table)
+14:04:24.181742 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.dim_customers [success]
+14:04:24.184328 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.stg_suppliers (view)
+14:04:24.184357 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.stg_suppliers [success]
+14:04:24.184377 [info ]: Started model dbt_cosmos_airflow.dim_product
+14:04:24.184388 [debug]: Started rendering model dbt_cosmos_airflow.dim_product
+14:04:24.187446 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_product [success]
+14:04:24.187465 [info ]: Finished rendering [  0.02s] (12 nodes, 0 skipped, 1 errors)
+14:04:24.187482 [debug]: Started analyzing model dbt_cosmos_airflow.dim_product
+14:04:24.201750 [info ]:  Succeeded [  0.02s] model dbt_cosmos_airflow.dim_product (table)
+14:04:24.201782 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.dim_product [success]
+14:04:24.201788 [info ]: Finished analyzing [  0.03s] (12 nodes, 1 skipped, 0 errors)
+14:04:24.204438 [info ]: Cached model count updated: 8 models (accurate)
+14:22:32.906615 [info ]: Started loading project
+14:22:32.938665 [info ]: Started parsing
+14:22:32.958301 [info ]: Finished loading project [  0.05s]
+14:22:32.988207 [info ]: Finished parsing [  0.05s]
+14:22:32.990385 [info ]: Cached model count updated: 8 models (estimate)
+14:22:32.990397 [info ]: Cached model count updated: 8 models (accurate)
+14:22:32.990435 [info ]: Started scheduling
+14:22:32.990488 [info ]: Finished scheduling [  0.00s]
+14:22:32.990499 [warn ]: dbt1000: The selection criterion '' does not match any enabled nodes
+14:22:32.990503 [warn ]: dbt1000: Nothing to do. Try checking your model configs and model specification args
+14:22:33.129701 [info ]: Started building task graph
+14:22:33.129780 [info ]: Finished building task graph [  0.00s]
+14:22:33.129929 [debug]: Incremental compilation - 0 nodes selected: {}
+14:22:33.133773 [info ]: Cached model count updated: 8 models (accurate)
+14:35:04.187908 [info ]: Started loading project
+14:35:04.202168 [info ]: Started parsing
+14:35:04.220439 [info ]: Finished loading project [  0.03s]
+14:35:04.233220 [info ]: Finished parsing [  0.03s]
+14:35:04.234819 [info ]: Cached model count updated: 8 models (estimate)
+14:35:04.234828 [info ]: Cached model count updated: 8 models (accurate)
+14:35:04.234859 [info ]: Started scheduling
+14:35:04.234901 [info ]: Finished scheduling [  0.00s]
+14:35:04.234910 [warn ]: dbt1000: The selection criterion '' does not match any enabled nodes
+14:35:04.234914 [warn ]: dbt1000: Nothing to do. Try checking your model configs and model specification args
+14:35:04.393927 [info ]: Started building task graph
+14:35:04.394024 [info ]: Finished building task graph [  0.00s]
+14:35:04.394196 [debug]: Incremental compilation - 0 nodes selected: {}
+14:35:04.397065 [info ]: Cached model count updated: 8 models (accurate)
+==================== 2026-01-13T15:54:16.449598Z | 8509795d-3864-4c37-b0f8-0253a465f5e3 ====================
+15:54:16.449642 [info ]: Starting dbt LSP server
+15:54:16.449661 [info ]: Connecting to LSP client on port 8000
+15:54:16.449946 [info ]: Successfully connected to LSP client
+15:54:16.449952 [info ]: Creating LSP service...
+15:54:16.498291 [info ]: Creating LSP server...
+15:54:16.498306 [info ]: Starting LSP server...
+15:54:16.569463 [info ]: Started loading project
+15:54:16.891973 [info ]: Started parsing
+15:54:16.931739 [info ]: Finished loading project [  0.36s]
+15:54:17.143728 [info ]: Finished parsing [  0.25s]
+15:54:17.144391 [info ]: Cached model count updated: 8 models (estimate)
+15:54:17.144400 [info ]: Cached model count updated: 8 models (accurate)
+15:54:17.144446 [info ]: Started scheduling
+15:54:17.144550 [info ]: Finished scheduling [  0.00s]
+15:54:17.272903 [info ]: Started building task graph
+15:54:17.273049 [info ]: Finished building task graph [  0.00s]
+15:54:17.273187 [info ]: Started rendering (12 nodes)
+15:54:17.273204 [info ]: Started seed dbt_cosmos_airflow.inventory_transactions
+15:54:17.273218 [debug]: Started rendering seed dbt_cosmos_airflow.inventory_transactions
+15:54:17.273231 [info ]: Started seed dbt_cosmos_airflow.suppliers
+15:54:17.273236 [debug]: Started rendering seed dbt_cosmos_airflow.suppliers
+15:54:17.273246 [info ]: Started seed dbt_cosmos_airflow.products
+15:54:17.273250 [debug]: Started rendering seed dbt_cosmos_airflow.products
+15:54:17.273259 [info ]: Started model dbt_cosmos_airflow.dim_date
+15:54:17.273265 [debug]: Started rendering model dbt_cosmos_airflow.dim_date
+15:54:17.273272 [info ]: Started seed dbt_cosmos_airflow.customers
+15:54:17.273276 [debug]: Started rendering seed dbt_cosmos_airflow.customers
+15:54:17.280284 [debug]: Finished rendering [  0.01s] model dbt_cosmos_airflow.dim_date [success]
+15:54:17.280313 [info ]: Started analyzing (12 nodes)
+15:54:17.280321 [debug]: Started analyzing model dbt_cosmos_airflow.dim_date
+15:54:17.282313 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.inventory_transactions [success]
+15:54:17.282342 [debug]: Started analyzing seed dbt_cosmos_airflow.inventory_transactions
+15:54:17.282358 [debug]: Finished rendering [  0.01s] seed dbt_cosmos_airflow.suppliers [success]
+15:54:17.282366 [debug]: Started analyzing seed dbt_cosmos_airflow.suppliers
+15:54:17.282396 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.suppliers (table)
+15:54:17.282415 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.suppliers [success]
+15:54:17.282426 [info ]: Started model dbt_cosmos_airflow.stg_suppliers
+15:54:17.282435 [debug]: Started rendering model dbt_cosmos_airflow.stg_suppliers
+15:54:17.282460 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.inventory_transactions (table)
+15:54:17.282470 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.inventory_transactions [success]
+15:54:17.282478 [info ]: Started model dbt_cosmos_airflow.stg_inventory_transactions
+15:54:17.282482 [debug]: Started rendering model dbt_cosmos_airflow.stg_inventory_transactions
+15:54:17.288735 [debug]: Finished rendering [  0.02s] seed dbt_cosmos_airflow.customers [success]
+15:54:17.288772 [debug]: Started analyzing seed dbt_cosmos_airflow.customers
+15:54:17.288801 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.customers (table)
+15:54:17.288816 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.customers [success]
+15:54:17.288827 [info ]: Started model dbt_cosmos_airflow.stg_customers
+15:54:17.288833 [debug]: Started rendering model dbt_cosmos_airflow.stg_customers
+15:54:17.289048 [debug]: Finished rendering [  0.02s] seed dbt_cosmos_airflow.products [success]
+15:54:17.289064 [debug]: Started analyzing seed dbt_cosmos_airflow.products
+15:54:17.289078 [info ]:  Succeeded [  0.01s] seed  dbt_cosmos_airflow.products (table)
+15:54:17.289089 [debug]: Finished analyzing [  0.00s] seed dbt_cosmos_airflow.products [success]
+15:54:17.289096 [info ]: Started model dbt_cosmos_airflow.stg_products
+15:54:17.289100 [debug]: Started rendering model dbt_cosmos_airflow.stg_products
+15:54:17.289408 [debug]: Started analyzing model dbt_cosmos_airflow.stg_suppliers
+15:54:17.289415 [debug]: Finished rendering [  0.01s] model dbt_cosmos_airflow.stg_suppliers [success]
+15:54:17.291595 [debug]: Started analyzing model dbt_cosmos_airflow.stg_inventory_transactions
+15:54:17.291593 [debug]: Finished rendering [  0.01s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+15:54:17.297907 [debug]: Finished rendering [  0.01s] model dbt_cosmos_airflow.stg_customers [success]
+15:54:17.297933 [debug]: Started analyzing model dbt_cosmos_airflow.stg_customers
+15:54:17.301520 [debug]: Finished rendering [  0.01s] model dbt_cosmos_airflow.stg_products [success]
+15:54:17.301549 [debug]: Started analyzing model dbt_cosmos_airflow.stg_products
+15:54:17.304388 [info ]:  Succeeded [  0.02s] model dbt_cosmos_airflow.stg_inventory_transactions (view)
+15:54:17.304414 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.stg_inventory_transactions [success]
+15:54:17.304430 [info ]: Started model dbt_cosmos_airflow.fact_inventory
+15:54:17.304439 [debug]: Started rendering model dbt_cosmos_airflow.fact_inventory
+15:54:17.304453 [info ]:  Succeeded [  0.03s] model dbt_cosmos_airflow.dim_date (table)
+15:54:17.304462 [debug]: Finished analyzing [  0.02s] model dbt_cosmos_airflow.dim_date [success]
+15:54:17.305598 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.fact_inventory [error]
+15:54:17.305631 [error]: dbt1005: Configuration Error: Keyfile '/opt/airflow/include/learning-gcp-369416-93c90510f16c.json' does not exist
+(in models/warehouse/fact_inventory.sql:27:11)
+(in dbt_internal_packages/dbt-adapters/macros/materializations/models/incremental/is_incremental.sql:7:34)
+  --> models/warehouse/fact_inventory.sql:27:11
+15:54:17.305645 [debug]: Started analyzing model dbt_cosmos_airflow.fact_inventory
+15:54:17.305656 [info ]:     Failed [  0.00s] model dbt_cosmos_airflow.fact_inventory (incremental)
+15:54:17.305666 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.fact_inventory [skipped]
+15:54:17.307332 [info ]:  Succeeded [  0.02s] model dbt_cosmos_airflow.stg_customers (view)
+15:54:17.307348 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.stg_customers [success]
+15:54:17.307362 [info ]: Started model dbt_cosmos_airflow.dim_customers
+15:54:17.307370 [debug]: Started rendering model dbt_cosmos_airflow.dim_customers
+15:54:17.311640 [info ]:  Succeeded [  0.03s] model dbt_cosmos_airflow.stg_suppliers (view)
+15:54:17.311667 [debug]: Finished analyzing [  0.02s] model dbt_cosmos_airflow.stg_suppliers [success]
+15:54:17.311979 [debug]: Started analyzing model dbt_cosmos_airflow.dim_customers
+15:54:17.311992 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_customers [success]
+15:54:17.312299 [info ]:  Succeeded [  0.02s] model dbt_cosmos_airflow.stg_products (view)
+15:54:17.312311 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.stg_products [success]
+15:54:17.312323 [info ]: Started model dbt_cosmos_airflow.dim_product
+15:54:17.312330 [debug]: Started rendering model dbt_cosmos_airflow.dim_product
+15:54:17.315067 [info ]:  Succeeded [  0.01s] model dbt_cosmos_airflow.dim_customers (table)
+15:54:17.315090 [debug]: Finished analyzing [  0.00s] model dbt_cosmos_airflow.dim_customers [success]
+15:54:17.317271 [debug]: Finished rendering [  0.00s] model dbt_cosmos_airflow.dim_product [success]
+15:54:17.317289 [info ]: Finished rendering [  0.04s] (12 nodes, 0 skipped, 1 errors)
+15:54:17.317303 [debug]: Started analyzing model dbt_cosmos_airflow.dim_product
+15:54:17.330160 [info ]:  Succeeded [  0.02s] model dbt_cosmos_airflow.dim_product (table)
+15:54:17.330185 [debug]: Finished analyzing [  0.01s] model dbt_cosmos_airflow.dim_product [success]
+15:54:17.330192 [info ]: Finished analyzing [  0.05s] (12 nodes, 1 skipped, 0 errors)
+15:54:17.332387 [info ]: Cached model count updated: 8 models (accurate)

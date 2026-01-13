@@ -1,0 +1,20 @@
+version: 2
+
+models:
+    - name: stg_products
+      description: Staging table for products data.
+      columns:              
+          - name: id
+            description: Primary key for the product
+            tests:
+                - not_null
+                - unique
+          - name: product_code
+            description: code of each product
+            tests:
+                - not_null
+    - name: stg_customers
+      description: Staging table for customers data.
+      columns:              
+          - name: id
+            description: Primary key for the customer
